@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Dsw2026Ej8
+namespace Dsw2026Ej8.Problema1
 {
-    public partial class ProductHelperAux
+    public partial class ProductHelper
     {
         private const string Separador = " - ";
 

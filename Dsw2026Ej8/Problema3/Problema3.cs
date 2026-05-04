@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Dsw2026Ej8
+﻿namespace Dsw2026Ej8.Problema3
 {
     public class Problema3
     {
@@ -18,9 +14,9 @@ namespace Dsw2026Ej8
             Product copiaProducto = product;
 
             //se modifica la desc del producto 
-            copiaProducto.Description = "descripcion modificada";
+            copiaProducto.SetDescription("descripcion modificada");
 
-            return $"{originalValue}-{copiaValor}-{copiaProducto.Description}";
+            return $"{originalValue}-{copiaValor}-{copiaProducto.GetDescription}";
         }
 
     }
